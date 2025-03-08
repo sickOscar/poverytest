@@ -1,0 +1,17 @@
+{
+    "lambdas": {
+        "API_test": [
+            {
+                "method": "GET",
+                "path": "/test/validation/{validated}"
+            },
+            {
+                "method": "ANY",
+                "path": "/{proxy+}"
+            }
+        ]
+    },
+    "esbuild": {
+        "external": ["knex"]
+    }
+}

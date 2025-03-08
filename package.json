@@ -1,0 +1,28 @@
+{
+  "name": "poverytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "povery-cli": "povery-cli",
+    "start": "povery-cli start",
+    "test:api": "node test/api-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^2.4.2",
+    "pg": "^8.10.0",
+    "povery": "file:../povery"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.316.0",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "povery-cli": "^0.0.20",
+    "resolve-package-path": "^4.0.3",
+    "ts-jest": "^29.1.0"
+  }
+}

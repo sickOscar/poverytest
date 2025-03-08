@@ -1,0 +1,7 @@
+{
+  "action": "rpcMethod",
+  "payload": {
+    "name": "test",
+    "description": "test"
+  }
+}
